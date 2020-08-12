@@ -24,7 +24,12 @@
     - 영어 듣기 : 영어로 된 영상(영화 클립, 미드, 팝 등등)을 보며 따라해 본다.
     - 레시피 따라해보기 : 집에서 편하게 고든램지의 레시피도 소환할수있다! 레시피를 따라 요리해보고 메모도 남겨본다. 
    
----   
+---
+### 기술 스택
+   * front-end : React(hooks), Redux, Redux-thunk, Reactstrap, CSS, React-router
+   * back-end : express, sequelize, nodejs, mysql, etc.. Youtube API, Calendar API, 구글 OAuth Api
+
+---
 ### 와이어 프레임
 ![Veiwing 001](https://user-images.githubusercontent.com/61297852/86470796-205dd680-bd77-11ea-88c2-51cf5a67b481.jpeg)
 ![Veiwing 002](https://user-images.githubusercontent.com/61297852/86470805-23f15d80-bd77-11ea-9ecf-11192efcde3b.jpeg)
@@ -124,11 +129,6 @@ Ref: "users"."id" < "toDoBox"."usersId"
       - 유저가 다시 로그인을 하면 저장된 데이터가 불러와진다.
   
 ---  
-### 기술 스택
-   * front-end : React(hooks), Redux, Redux-thunk, Reactstrap, CSS, React-router
-   * back-end : express, sequelize, nodejs, mysql, etc.. Youtube API, Calendar API, 구글 OAuth Api
-
----
 
 ### Clone & Setup
 
