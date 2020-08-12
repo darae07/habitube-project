@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+@font-face {
+  font-family: 'Nanum Gothic', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+}
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Nanum+Pen+Script&display=swap');
+@font-face {
+  font-family: 'Nanum Myeongjo', serif;
+  font-family: 'Nanum Pen Script', cursive;
+  src: url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Nanum+Pen+Script&display=swap');
+}
+body {
+  font-family: 'Nanum Gothic';
+  background-color: #fefefeef;
+}
+.login-form {
+  width: 100%;
+  max-width: 500px;
+  padding: 100px;
+  margin: auto;
+  height: 100%;
+}
+.signup-form {
+  width: 100%;
+  max-width: 500px;
+  padding: 100px;
+  margin: auto;
+  height: 100%;
+}
+.achivementgoal-form {
+  width: 100%;
+  max-width: 600px;
+  padding: 100px;
+  margin: auto;
+  height: 100%;
+}
+
+.error-form {
+  padding: 100px;
+  margin: auto;
+  height: 100%;
+}
+
+.complete-form {
+  padding: 100px;
+  margin: auto;
+  height: 100%;
+}
+
+.achivementgoal-select {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  margin: auto;
+  height: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.todo-box-container {
+  display: inline-block;
+}
+.card {
+  padding: 10px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.07);
+}
+.myModal {
+  position: fixed; /* Stay in place */
+  z-index: 2; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.6); /* Black w/ opacity */
+}
+.mymodal-content {
+  background-color: #fefefe;
+  margin: 5% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 90%; /* Could be more or less, depending on screen size */
+}
+.boxes-col {
+  height: 280px;
+  margin: 10px auto;
+}
+.achievementgoal-btn {
+}
+.mypage {
+  font-family: 'Nanum Gothic';
+  background-color: #fdfdfd;
+}
+.container {
+  background-color: #fdfdfd;
+  padding-top: 10px;
+}
+.page-btn {
+  float: right;
+  margin-right: 15px;
+}
+.mypage h2 {
+  font-family: 'Nanum Myeongjo';
+  margin-left: 12px;
+  margin-top: 80px;
+  color: rgba(26, 10, 10, 0.616);
+  font-weight: 400;
+  font-size: 2rem;
+}
+.month {
+  margin-top: 10px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.582);
+  font-size: x-large;
+}
+.preview {
+  position: relative;
+}
+.preview-cover {
+  position: absolute;
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%;
+  background-color: rgba(16, 61, 39, 0.6);
+  color: rgb(235, 235, 235);
+  text-align: center;
+  font-weight: 800;
+  line-height: 200px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+.link {
+  color: #1ab35fef;
+  font-weight: 700;
+}
+.my-progress-bar {
+  margin-top: 12px;
+}
+.smallbox-icon {
+  width: 5px;
+  height: 24px;
+  background-color: #1ab35fef;
+  float: left;
+  margin-top: 2px;
+  margin-right: 10px;
+}
+.mynav {
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.07);
+  margin-bottom: 10px;
+  padding-bottom: 7px;
+}
+.font-icon {
+  color: #1ab35fef;
+  margin-right: 10px;
+  margin-top: 1.5px;
+  display: inline;
+  float: left;
+}
+.complet-ani {
+  z-index: 1;
+  position: absolute;
+  left: 15%;
+  top: 19%;
+  width: 70%; /* Full width */
+  height: 70%;
+}
+.main {
+  background-color: #fdfdfd;
+  padding-top: 180px;
+  font-family: 'Nanum Gothic';
+  padding-bottom: 200px;
+}
+.hi {
+  color: #1ab35fef;
+  font-size: 2.3rem;
+  font-weight: 800;
+}
+.introduce-myself {
+  padding-top: 20px;
+  color: rgb(112, 112, 112);
+  padding-bottom: 110px;
+  font-size: 1rem;
+  display: block;
+}
+.main-icons {
+  font-size: 3rem;
+}
+.youtube-ani {
+  position: absolute;
+  top: 4%;
+  right: 0%;
+  width: 52%;
+}
+.line {
+  margin-bottom: 70px;
+  margin-top: 40px;
+}
+.sub {
+  padding-top: 90px;
+  padding-right: 100px;
+  color: rgb(112, 112, 112);
+  padding-bottom: 120px;
+  font-size: 1rem;
+  display: block;
+}
+.sub-title {
+  font-weight: 900;
+}
+.br {
+  margin-bottom: 12px;
+}
+.mytoast {
+  z-index: 1;
+  position: absolute;
+  right: 20%;
+  top: 3%;
+}
+.main-btn {
+  width: 30%;
+  font-size: xx-large;
+}

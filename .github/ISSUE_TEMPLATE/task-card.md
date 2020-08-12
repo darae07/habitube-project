@@ -40,5 +40,5 @@ Task Card 하나의 estimated time / consumed time 이 최대 3h 이 넘어가�
 
 ##### Status 관리
 
-- Task Card 의 상태에 따라  `Backlog`, `To do`,  `In progress`, `Done` 유지를 해주세요
+- Task Card 의 상태에 따라  `Backlog`, `To do`,  `In progress`, `Sprint N done` 유지를 해주세요
 - 진행하던 Task Card 를 중간에 안하게 되는 경우, `In Progress` 에서 `To do` 로 Status 를 변경해 주시기 바랍니다.
